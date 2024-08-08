@@ -6,83 +6,75 @@ import {
 
 export const navLinks = [
   {
-    id: "hero",
-    title: "Hero",
+    id: "Homme",
+    title: "Home",
   },
   {
-    id: "portfolio",
-    title: "Portfolio",
+    id: "GUAC",
+    title: "GUAC",
   },
   {
-    id: "experience",
-    title: "Experience",
+    id: "Timeline",
+    title: "Timeline",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: " ",
+    title: " ",
   },
 ];
 
 const experiences = [
   {
-    title: "YouTube Content Creator",
-    company_name: "Self Employed",
-    date: "2016 - Present",
+    title: "Conceptualization and Syntax Design",
+    company_name: "Notion, Figma",
+    date: "July-September, 2024",
     details: [
-      "Built a subscriber base of over <span style='color: white;'>500,000 subscribers</span> by creating video content to help programmers.",
-      "Crafted visually appealling programming videos that have garnered over <span style='color: white;'>30,000,000 views</span>.",
-      "Produced high-quality educational and entertaining videos for clients including <span style='color: white;'>Intel, JetBrains, and MicroCenter</span>.",
+      "This phase involves <span style='color: white;'>brainstorming </span> and  <span style='color: white;'>solidifying</span> the core ideas behind GUAC.The syntax will be crafted to align with <span style='color: white;'>Gen Z culture</span>, emphasizing creativity, ease of use, and relevance. Tools like Notion and Figma will help in documenting and visualizing the language's design.",
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Indie",
-    date: "2019 - 2023",
+    title: "Compiler/Interpreter Development",
+    company_name: "Python, LLVM",
+    date: "September-December, 2024",
     details: [
-      "Developed and delivered custom interdisciplinary coding portfolio for clients including <span style='color: white;'>Nvidia, Hostinger, and Amazon</span>.",
-      "<span style='color: white;'>Designed and developed innovative</span> AI applications and interactive websites.",
-      "<span style='color: white;'>Managed full project lifecycle</span> from concept to deployment in successful and timely project completions.",
+      "The <span style='color: white;'>core</span> of GUAC is built during this period, with a focus on <span style='color: white;'>developing</span> the compiler or interpreter. Python will be used for rapid <span style='color: white;'>prototyping</span>, and LLVM will be utilized for optimizing the <span style='color: white;'>low-level execution</span> of the language, bringing the design to life.",
     ],
   },
   {
-    title: "Software Engineer",
-    company_name: "Prime 3",
-    date: "2018 - 2019",
+    title: "Beta Testing and Debugging",
+    company_name: "PyTest, Jenkins",
+    date: "January- March, 2025",
     details: [
-      "Built custom enterprise applications for a <span style='color: white;'>Fortune 500 company</span> as a full-stack software engineer.",
-      "Developed and maintained <span style='color: white;'>scalable backend services</span>, ensuring high availability for critical business applications.",
-      "<span style='color: white;'>Collaborated with a team</span> to design and implement front-end interfaces.",
+      "Extensive <span style='color: white;'>Beta testing and debugging</span> will be conducted to ensure the language functions as intended. <span style='color: white;'>Automated testing</span> using PyTest and <span style='color: white;'>continuous integration</span> with Jenkins will facilitate iterative <span style='color: white;'>improvements and bug fixes</span>.",
     ],
   },
   {
-    title: "Computer Science",
-    company_name: "ODU",
-    date: "2015 - 2018",
+    title: "Launch and Community Building",
+    company_name: "GitHub, Discord",
+    date: "April, 2025",
     details: [
-      "Built a <span style='color: white;'>computer science foundation</span> learning theory, computer architecture, and software engineering.",
-      "Worked and interned at <span style='color: white;'>NASA and Norfolk Southern Railway</span> to gain practical experience in the field of data analysis.",
-      "Acted as a member of the <span style='color: white;'>Association for Computing Machinery</span> (ACM).",
+      " The official launch of <span style='color: white;'> GUAC </span> will be accompanied by span style='color: white;'>comprehensive documentation</span> and <span style='color: white;'>community outreach</span>. GitHub will be used to manage the codebase and encourage contributions, while Discord will serve as a platform for engaging with the community, offering support, and fostering collaboration.",
     ],
   },
 ];
 
 const portfolio = [
   {
-    name: "Open Source Computer Science Repo",
+    name: "Gen-Z-Friendly Syntax",
     description:
-      "A GitHub repo with over 17,000 stars containing a curated list of free online courses from reputable universities that satisfy undergraduate computer science requirements.",
+      "GUAC features a syntax that blends modern slang, abbreviations, and emojis, making coding intuitive and relatable for the Gen-Z crowd.",
     image: oscs,
   },
   {
-    name: "Dev Notes",
+    name: "Interactive Debugging",
     description:
-      "A newsletter with over 6,000 readers made for software developers to keep up with this rapidly evolving industry, with a sister platform in progress.",
+      "GUAC offers real-time error detection with contextual feedback, including tips, hints, and even memes, making the debugging process both efficient and enjoyable.",
     image: devnotes,
   },
   {
-    name: "Visually Understanding Algorithms",
+    name: "Seamless Collaboration",
     description:
-      "A showcase of animated algorithms coded using TypeScript, with the video garnering over 400,000 views.",
+      "GUAC supports real-time collaborative coding, enabling teams to work together smoothly, mirroring the social connectivity that Gen-Z thrives on",
     image: algorithms,
   },
 ];

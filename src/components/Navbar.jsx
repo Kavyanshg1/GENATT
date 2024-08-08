@@ -7,8 +7,8 @@ const Navbar = () => {
   const [active, setActive] = useState("hero");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
+  
+ useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       setScrolled(scrollTop > 100);
@@ -48,12 +48,12 @@ const Navbar = () => {
           to='/'
           className='flex items-start'
           onClick={() => {
-            setActive("hero");
+            setActive("Home");
             window.scrollTo(0, 0);
           }}
         >
           <p className='text-white text-[26px] lg:text-[36px] font-bold pointer-events-auto cursor-pointer flex'>
-            FK
+            GenZify
           </p>
         </Link>
 

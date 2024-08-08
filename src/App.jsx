@@ -10,17 +10,17 @@ const App = () => {
       <div className='relative z-0 bg-primary'>
         <Navbar />
         <div className='wrapper' ref={wrapperRef}>
-          <div id="hero" className='z-10'>
+          <div id="Home" className='z-10'>
             <Hero scrollContainer={wrapperRef} />
           </div>
-          <div id="portfolio" className='relative z-30 bg-primary mt-[-2px]'>
+          <div id="GUAC" className='relative z-30 bg-primary mt-[-2px]'>
             <Portfolio />
           </div>
-          <div id="experience" className='relative z-30 bg-primary'>
+          <div id="Timeline" className='relative z-30 bg-primary'>
             <Experience />
           </div>
-          <div id="contact" className='relative z-30 bg-primary'>
-            <Contact />
+          <div id="Contribute" className='relative z-30 bg-primary'>
+            <contribute />
           </div>
         </div>
       </div>

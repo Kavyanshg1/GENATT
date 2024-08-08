@@ -76,7 +76,7 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-3 px-8 w-fit text-white font-bold shadow-md shadow-primary '
           >
-            {loading ? "Sending..." : "Send"}
+            {loading ? "Sending..." : "Sent"}
           </button>
         </form>
       </motion.div>
@@ -84,4 +84,4 @@ const Contact = () => {
   );
 };
 
-export default SectionWrapper(Contact, "contact");
+export default SectionWrapper(Contact, "contribute");
