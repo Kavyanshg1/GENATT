@@ -1,6 +1,7 @@
 import { SpacemanCanvas } from ".";
 import Position from "./Position";
 
+
 const Hero = ({ scrollContainer }) => {
   return (
     <section className="parallax">
@@ -9,7 +10,7 @@ const Hero = ({ scrollContainer }) => {
           <h1 className='font-medium text-white text-[40px] xs:text-[50px] sm:text-[68px] md:text-[80px] lg:text-[100px] 2xl:text-[180px] leading-[110px] 2xl:leading-[160px]'>
             GUAC
           </h1>
-          
+      
          
           <Position />
   
@@ -22,11 +23,12 @@ const Hero = ({ scrollContainer }) => {
             <br/>
             
             <h2>Coming Out April,2025!</h2>
-            
-            
+          
+
           </div>
         </div>
       </div>
+      
 
       <img className="parallax__stars" src="./parallax/1Stars.svg" alt="" />
       <img className="parallax__planets" src="./parallax/2Planets.svg" alt="" />

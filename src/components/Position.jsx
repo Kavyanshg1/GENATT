@@ -22,7 +22,9 @@ const Position = () => {
         <div className="text second absolute left-1 md:left-2 2xl:left-4 flex" aria-label="Simple. Smart. Gen-Z.">
           {produceSpans("Simple. Smart. Gen-Z.", "animate-textRotate2")}
           
+          
         </div>
+       
       </div>
     </div>
   );

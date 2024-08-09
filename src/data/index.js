@@ -6,7 +6,7 @@ import {
 
 export const navLinks = [
   {
-    id: "Homme",
+    id: "Home",
     title: "Home",
   },
   {
@@ -25,6 +25,7 @@ export const navLinks = [
 
 const experiences = [
   {
+   
     title: "Conceptualization and Syntax Design",
     company_name: "Notion, Figma",
     date: "July-September, 2024",

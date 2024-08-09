@@ -56,6 +56,8 @@ const Navbar = () => {
             GenZify
           </p>
         </Link>
+     
+
 
         <ul className='list-none hidden sm:flex flex-col gap-5'>
           {navLinks.map((nav) => (
