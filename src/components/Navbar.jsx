@@ -55,7 +55,14 @@ const Navbar = () => {
           <p className='text-white text-[26px] lg:text-[36px] font-bold pointer-events-auto cursor-pointer flex'>
             GenZify
           </p>
+        
         </Link>
+        <div className='flex items-center justify-end gap-3'>
+           Copyright 	&#9400; 2024 GenZify.
+        </div>
+    
+      
+       
      
 
 
