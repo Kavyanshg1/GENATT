@@ -58,7 +58,7 @@ const Navbar = () => {
         
         </Link>
         <div className='flex items-center justify-end gap-3'>
-           Copyright 	&#9400; 2024 GenZify.
+           Copyright 	&#9400; 2024 GUAC | Code Released under MIT license
         </div>
     
       
