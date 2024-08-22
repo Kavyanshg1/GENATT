@@ -20,3 +20,7 @@ ignorePorts = false
 localPort = 5173
 externalPort = 80
 exposeLocalhost = true
+
+[auth]
+pageEnabled = false
+buttonEnabled = false
